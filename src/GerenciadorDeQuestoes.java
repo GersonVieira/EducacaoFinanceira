@@ -11,7 +11,7 @@ public class GerenciadorDeQuestoes {
 		this.questoes=new ArrayList<Questao>();
 		indexAtual=0;
 	}
-	public String nextAlternativa() {
+	public Alternativa nextAlternativa() {
 		if(indexAtual >= atual.getAlternativas().size()) {
 			this.indexAtual=0;
 		}
@@ -21,6 +21,10 @@ public class GerenciadorDeQuestoes {
 		return null;
 	}
 	public List<Questao> getQuestoesBanco(){
+		return null;
+	}
+	public List<Questao> getDesafio() {
+		// TODO Auto-generated method stub
 		return null;
 	}
 }
